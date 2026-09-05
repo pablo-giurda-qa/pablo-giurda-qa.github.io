@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de QA Automatizador: automatización de pruebas, testing funcional, API testing y CI/CD.">
+  <meta name="theme-color" content="#07110B">
+  <title>QA Automatizador | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">QA<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="inicio" class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">QA AUTOMATIZADOR · SOFTWARE TESTING</p>
+          <h1>Hola, soy <span>Pablo Giurda</span>.<br>Construyo software más confiable.</h1>
+          <p class="hero-copy">
+            QA Manual & Automation enfocado en crear pruebas robustas, detectar riesgos
+            y mejorar la calidad del producto desde el primer sprint.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-secondary" href="assets/cv_TEX.pdf" download>Descargar CV</a>
+          </div>
+          <div class="availability" role="status">
+            <span class="status-dot" aria-hidden="true"></span>
+            <strong>Disponibilidad inmediata</strong>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Perfil profesional">
+          <div class="terminal-top"><span></span><span></span><span></span></div>
+          <pre><code><span class="code-key">const</span> qa = {
+  role: <span class="code-string">"Automation Tester"</span>,
+  focus: [
+    <span class="code-string">"E2E Testing"</span>,
+    <span class="code-string">"API Testing"</span>,
+    <span class="code-string">"CI/CD"</span>
+  ],
+  mindset: <span class="code-string">"Quality First"</span>
+};</code></pre>
+        </aside>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker">01 / SOBRE MÍ</p>
+          <h2>Calidad detrás de cada <span>release.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            Soy QA Automatizador con experiencia en testing funcional, regresión,
+            exploratorio y automatización de pruebas end-to-end.
+          </p>
+          <p>
+            Me interesa transformar escenarios de negocio en pruebas claras y mantenibles,
+            encontrar defectos antes de producción y colaborar con equipos de desarrollo
+            para entregar productos confiables.
+          </p>
+          <p>
+            Trabajo con herramientas de automatización, API testing, control de versiones
+            y pipelines para integrar la calidad en el ciclo de desarrollo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <p class="section-kicker">02 / SKILLS</p>
+        <h2>Herramientas que uso para <span>testear.</span></h2>
+        <div class="skills-grid" aria-label="Tecnologías y herramientas">
+          <span class="skill-badge">Playwright</span>
+          <span class="skill-badge">Selenium WebDriver</span>
+          <span class="skill-badge">TestNG</span>
+          <span class="skill-badge">Cucumber</span>
+          <span class="skill-badge">Git</span>
+          <span class="skill-badge">CI/CD</span>
+          <span class="skill-badge">Postman</span>
+          <span class="skill-badge">Jira</span>
+          <span class="skill-badge">MySQL</span>
+          <span class="skill-badge">AI-Assisted Software Testing</span>
+          
+
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="container">
+        <p class="section-kicker">03 / PROYECTOS</p>
+        <div class="section-heading">
+          <h2>Proyectos que muestran mi <span>forma de trabajar.</span></h2>
+          <p>Automatización, cobertura funcional y validación de APIs.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <h3>TiendaDigital E2E</h3>
+            <p>
+              Suite de pruebas end-to-end para validar login, navegación y flujos críticos
+              de un dashboard de e-commerce.
+            </p>
+            <div class="tags"><span>Selenium</span><span>Java</span><span>Cucumber</span><span>TestNG</span></div>
+            <a href="https://github.com/pablo-giurda-qa" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver proyecto TiendaDigital E2E en GitHub">Ver proyecto ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>Playwright E2E</h3>
+            <p>
+              Automatización de escenarios críticos con locators estables, assertions,
+              fixtures y ejecución preparada para CI.
+            </p>
+            <div class="tags"><span>Playwright</span><span>JavaScript</span><span>E2E</span><span>CI/CD</span></div>
+            <a href="https://github.com/pablo-giurda-qa" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver proyecto Playwright E2E en GitHub">Ver proyecto ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>API Test Suite</h3>
+            <p>
+              Validación de endpoints, status codes, schemas, datos de respuesta y casos
+              positivos y negativos para servicios REST.
+            </p>
+            <div class="tags"><span>Postman</span><span>REST API</span><span>Assertions</span></div>
+            <a href="https://github.com/pablo-giurda-qa" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver proyecto API Test Suite en GitHub">Ver proyecto ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <h3>Regression Automation</h3>
+            <p>
+              Estructura mantenible para pruebas de regresión con Page Object Model,
+              reutilización de componentes y reportes de ejecución.
+            </p>
+            <div class="tags"><span>POM</span><span>Selenium</span><span>TestNG</span><span>Git</span></div>
+            <a href="https://github.com/pablo-giurda-qa" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver proyecto Regression Automation en GitHub">Ver proyecto ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="section-kicker">04 / CONTACTO</p>
+          <h2>¿Trabajamos juntos?</h2>
+          <p>Estoy disponible para nuevas oportunidades en QA Manual & Automation.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:p.giurda@gmail.com"><span>Email</span><strong>p.giurda@gmail.com</strong></a>
+          <a href="https://www.linkedin.com/in/pablo-giurda" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>/in/Pablo-Giurda</strong></a>
+          <a href="https://github.com/pablo-giurda-qa-automation" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>PabloGiurda</strong></a>
+        </div>
+      </div>  
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Pablo Giurda · QA Automatizador</p>
+      <a href="#inicio" aria-label="Volver al inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
